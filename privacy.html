@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="privacy.css">
+</head>
+<body>
+    <div class="privacy">
+        <nav id="nav">
+            <div id="mySidenav" class="sidenav">
+                <a style="border-bottom: #5e385e;" href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div><img src="Images/logo.png" alt=""></div>
+                <div class="nav-search-container">
+                    <input type="search" placeholder="Search">
+                    <div>
+                        <img src="Images/black-search.png" alt="">
+                    </div>
+                </div>
+                <a href="index.html">Home <div>></div> </a>
+                <a href="contact.html">Contact Us <div>></div></a>
+                <a href="#">Explore <div>></div></a>
+                <a href="#">News <div>></div></a>
+                <a href="#">Categories <div>></div></a>
+                <a href="profile.html">My Profile <div>></div></a>
+                <a href="privacy.html">Privacy Policy <div>></div></a>
+                <a href="terms.html">Terms & Conditions <div>></div></a>
+                <div class="responsive-login-section">
+                  <div class="nav-login"><a style="border-bottom: 1px solid #5e385e; padding-left: 0;" href="login.html">Login</a></div>
+                    <div><a style="border-bottom: 1px solid #5e385e; padding-left: 0;" href="register.html">Signup</a></div>
+                </div>
+            </div>
+            
+    
+            <div class="menu">
+                <div class="logo">
+                    <img onclick="openNav()" style="width: 18px; height: 15px;" src="Images/hamburger.png" alt="">
+                    <a style="margin-left: 30px;" href="index.html"> <img src="Images/logo.png" alt=""></a>
+                </div>
+    
+                <div>
+                    <img style="width: 18px; height: 18px;" src="Images/search.png" alt="">
+                </div>
+            </div>
+    
+        </nav>
+
+        <h1>Privacy and Policy</h1>
+
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque ullam, explicabo amet possimus expedita eaque? Cum autem odit blanditiis iusto fugit consectetur similique suscipit beatae quo incidunt unde quis cupiditate nobis ullam, necessitatibus, expedita molestiae quas corrupti ex minima laborum, nesciunt exercitationem. Expedita impedit doloremque recusandae in quis fugiat! Id?
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque ullam, explicabo amet possimus expedita eaque? Cum autem odit blanditiis iusto fugit consectetur similique suscipit beatae quo incidunt unde quis cupiditate nobis ullam, necessitatibus, expedita molestiae quas corrupti ex minima laborum, nesciunt exercitationem. Expedita impedit doloremque recusandae in quis fugiat! Id?
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque ullam, explicabo amet possimus expedita eaque? Cum autem odit blanditiis iusto fugit consectetur similique suscipit beatae quo incidunt unde quis cupiditate nobis ullam, necessitatibus, expedita molestiae quas corrupti ex minima laborum, nesciunt exercitationem. Expedita impedit doloremque recusandae in quis fugiat! Id?
+        </p>
+    </div>
+
+    <script>
+        // Responsive navbar
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "300px";
+        }
+  
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+
+        const nav = document.getElementById('nav');
+
+        window.addEventListener('mouseup', function (event) {
+            var box = document.getElementById('mySidenav');
+            if (event.target != box && event.target.parentNode != nav) {
+                document.getElementById("mySidenav").style.width = "0";
+            }
+        })
+    </script>
+</body>
+</html>

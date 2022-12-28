@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+    
+    <div class="profile">
+      <nav id="nav">
+        <div id="mySidenav" class="sidenav">
+            <a style="border-bottom: #5e385e;" href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div><img src="Images/logo.png" alt=""></div>
+            <div class="nav-search-container">
+                <input type="search" placeholder="Search">
+                <div>
+                    <img src="Images/black-search.png" alt="">
+                </div>
+            </div>
+            <a href="index.html">Home <div>></div> </a>
+            <a href="contact.html">Contact Us <div>></div></a>
+            <a href="#">Explore <div>></div></a>
+            <a href="#">News <div>></div></a>
+            <a href="#">Categories <div>></div></a>
+            <a href="profile.html">My Profile <div>></div></a>
+            <a href="privacy.html">Privacy Policy <div>></div></a>
+            <a href="terms.html">Terms & Conditions <div>></div></a>
+            <div class="responsive-login-section">
+              <div class="nav-login"><a style="border-bottom: 1px solid #5e385e; padding-left: 0;" href="login.html">Login</a></div>
+                <div><a style="border-bottom: 1px solid #5e385e; padding-left: 0;" href="register.html">Signup</a></div>
+            </div>
+        </div>
+        
+
+        <!-- <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span> -->
+
+        <div class="menu">
+            <div class="logo">
+                <img onclick="openNav()" style="width: 18px; height: 15px;" src="Images/hamburger.png" alt="">
+                <a style="margin-left: 30px;" href="index.html"><img src="Images/logo.png" alt=""></a>
+            </div>
+
+            <div>
+                <img style="width: 18px; height: 18px;" src="Images/search.png" alt="">
+            </div>
+        </div>
+
+    </nav>
+
+        <div class="user-profile">
+            <div class="user-img">
+            </div>
+            <div>
+                <span>User Name</span>
+                <p>Lore m ipsum dolor sit amet consectetur adipisicing elit. Iusto deleniti fugit animi at ipsum, fuga inventore, necessitatibus optio vitae totam enim cum vel repudiandae consectetur atque recusandae minima soluta reiciendis</p>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="user-data">
+
+           <div class="input-field">
+             <div>Name</div>
+             <div><input type="text" placeholder="Enter Name"></div>
+           </div>
+        
+          <div class="input-field">
+             <div>Phone</div>
+             <div><input type="text" placeholder="Enter Phone"></div>
+           </div>
+        
+           <div class="input-field">
+            <div>Email</div>
+            <div><input type="email" placeholder="Enter Email"></div>
+          </div>
+      
+          <div class="input-field">
+            <div>Password</div>
+            <div><input type="password" placeholder="Enter Password"></div>
+          </div>
+      
+          <div class="input-field">
+            <div>Country</div>
+            <div><input type="text" placeholder="Enter country"></div>
+          </div>
+      
+          <div class="input-field">
+            <div>City/State</div>
+            <div><input type="text" placeholder="Enter City/State"></div>
+          </div>
+      
+
+           
+        </div>
+    </div>
+
+
+    <script>
+      // Responsive navbar
+      function openNav() {
+          document.getElementById("mySidenav").style.width = "300px";
+      }
+
+      function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+      }
+
+      const nav = document.getElementById('nav');
+
+        window.addEventListener('mouseup', function (event) {
+            var box = document.getElementById('mySidenav');
+            if (event.target != box && event.target.parentNode != nav) {
+                document.getElementById("mySidenav").style.width = "0";
+            }
+        })
+  </script>
+</body>
+</html>

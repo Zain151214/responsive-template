@@ -1,0 +1,260 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 600px) {
+
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #5e385e;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 20px;
+  }
+
+  .sidenav .nav-details {
+    display: flex;
+    align-items: center;
+  }
+
+  .sidenav .nav-details .nav-profile-img {
+    border-radius: 50%;
+  }
+
+  .sidenav .nav-details .nav-profile-img img {
+    border-radius: 50%;
+  }
+
+  .sidenav .nav-content {
+    color: #ffff;
+    text-align: start;
+  }
+
+  .sidenav div {
+    text-align: center;
+    margin: 8px;
+  }
+
+  .sidenav div img {
+    width: 70px;
+    height: 60px;
+  }
+
+  .sidenav .nav-search-container {
+    display: flex;
+    align-items: center;
+
+  }
+
+  .sidenav input {
+    margin: 20px 0px 20px 30px;
+    background-color: #d5f3fa;
+    padding: 7px 6px;
+    border: none;
+    outline: none;
+  }
+
+  .sidenav .nav-search-container div {
+    background-color: #ffff;
+    height: 30px;
+    width: 35px;
+    margin: 0;
+  }
+
+  .sidenav .nav-search-container div img {
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+  }
+
+
+  .sidenav a {
+    border-bottom: 2px solid #ffff;
+    padding: 3px 8px 3px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffff;
+    display: block;
+    transition: 0.3s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 30px;
+    margin-left: 50px;
+  }
+
+  .sidenav .responsive-login-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+  }
+
+  .sidenav .responsive-login-section .nav-login {
+    border-right: 1px solid #ffff;
+    padding-right: 20px;
+    font-size: 20px;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5e385e;
+    color: #ffff;
+    padding: 10px;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo span {
+    margin-right: 30px;
+  }
+
+  .menu-2 {
+    text-align: end;
+    padding: 10px;
+  }
+
+  .preview-img {
+    height: 150px;
+  }
+
+  .preview-img img {
+    height: 100%;
+    width: 100%;
+  }
+
+  marquee {
+    padding: 10px 0;
+    color: #ffff;
+    background-color: #5e385e;
+  }
+
+  .profile-section {
+    padding: 20px 10px;
+  }
+
+  .detail-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .detail-1 .details {
+    display: flex;
+  }
+
+  .detail-1 .details .profile-img {
+    height: 70px;
+    width: 70px;
+    background-color: #5e385e;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  .detail-1 .details .profile-img img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+  }
+
+  .details .content span {
+    font-size: 12px;
+  }
+
+  hr {
+    margin: 10px;
+  }
+
+  .static-text {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 13px;
+  }
+
+  .static-text div {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+
+  .static-text div img {
+    height: 30px;
+    width: 30px;
+  }
+
+  .dynamic-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .members-table {
+    margin: 10px;
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  .members-table h3 {
+    margin: 10px 0;
+  }
+
+  table {
+    background-color: #D5F3FA;
+    width: 100%;
+    padding: 10px;
+    border-spacing: 0 15px;
+  }
+
+  table thead {
+    border-collapse: collapse;
+    background-color: #fff;
+    margin-bottom: 50px;
+  }
+
+  table thead tr th {
+    border-collapse: collapse;
+    margin: 100px 20px;
+    padding: 8px 20px;
+    overflow: auto;
+  }
+
+  tr td {
+    border-bottom: 1px solid #B3B3B3;
+    text-align: center;
+  }
+
+  .pagination {
+    margin: 20px;
+    text-align: center;
+  }
+
+  .pagination span {
+    padding: 2px 8px;
+    background-color: #D5F3FA;
+  }
+
+
+}

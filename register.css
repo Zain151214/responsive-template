@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 600px) {
+    
+    body{
+        background-color: #5e385e;
+    }
+
+    .register-page{
+        padding: 30px 20px;
+        text-align: center;
+        color: #ffff;
+    }
+
+    input{
+        width: 100%;
+        font-size: 16px;
+        margin: 10px 0;
+        background-color: #d5f3fa;
+        border: none;
+        outline: none;
+        padding: 10px;
+    }
+
+    button{
+        border: none;
+        outline: none;
+        background-color: #d5f3fa;
+        color: #5e385e;
+        padding: 15px;
+        margin-top: 10px;
+        font-size: 16px;
+        border-radius: 5px;
+    }
+
+    .help{
+        text-align: center;
+        padding: 20px;
+    }
+}

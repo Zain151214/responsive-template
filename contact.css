@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 600px) {
+
+    /* -----------Navbar----------- */
+
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #5e385e;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top:20px;
+      }
+      
+      .sidenav div{
+        text-align: center;
+        margin: 8px;
+      }
+    
+      .sidenav div img{
+        width: 70px;
+        height: 60px;
+      }
+    
+      .sidenav .nav-search-container{
+        display: flex;
+        align-items: center;
+        
+      }
+    
+      .sidenav input{
+        margin: 20px 0px 20px 30px;
+        background-color:#d5f3fa ;
+        padding: 6px 5px;
+        border: none;
+        outline: none;
+      }
+    
+      .sidenav .nav-search-container div{
+        background-color: #ffff;
+        height: 30px;
+        width: 35px;
+        margin: 0;
+      }
+    
+      .sidenav .nav-search-container div img{
+        height: 100%;
+        width: 100%;
+        cursor: pointer;
+      }
+    
+    
+      .sidenav a {
+        border-bottom: 2px solid #ffff;
+        padding: 3px 8px 3px 32px;
+        text-decoration: none;
+        font-size: 20px;
+        color: #ffff;
+        display: block;
+        transition: 0.3s;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      
+      .sidenav a:hover {
+        color: #f1f1f1;
+      }
+      
+      .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 30px;
+        margin-left: 50px;
+      }
+    
+      .sidenav .responsive-login-section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #ffff;
+      }
+    
+      .sidenav .responsive-login-section .nav-login{
+        border-right: 1px solid #ffff;
+        padding-right: 20px;
+        font-size: 20px;
+      }
+
+    .menu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #5e385e;
+        color: #ffff;
+        padding: 10px;
+    }
+    
+    .logo{
+        display: flex;
+        align-items: center;
+    }
+    
+    .logo span{
+        margin-right: 30px;
+    }
+    
+
+
+
+
+
+
+
+
+    .contact-container{
+        padding: 60px 20px;
+        text-align: center;
+    }
+
+    .contact-container h3{
+        margin-bottom: 10px;
+    }
+
+    .contact-container span{
+        margin-bottom: 10px;
+    }
+
+    input{
+        width: 100%;
+        font-size: 16px;
+        margin: 10px 0;
+        background-color: #d5f3fa;
+        border: none;
+        outline: none;
+        padding: 10px;
+    }
+
+    textarea{
+        background-color: aliceblue;
+        border: none;
+        outline: none;
+        resize: none;
+        margin: 10px 0 20px;
+    }
+
+    button{
+        border: none;
+        outline: none;
+        background-color: #5e385e;
+        color: #ffff;
+        padding: 10px;
+        border-radius: 5px;
+    }
+}

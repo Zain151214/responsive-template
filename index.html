@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap CDN -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+
+
+    <title>Responsive Template</title>
+</head>
+
+<body>
+
+    <nav id="nav">
+        <div id="mySidenav" class="sidenav">
+            <a style="border-bottom: #5e385e;" href="javascript:void(0)" class="closebtn"
+                onclick="closeNav()">&times;</a>
+            <div><img src="Images/logo.png" alt=""></div>
+            <div class="nav-search-container">
+                <input type="search" placeholder="Search">
+                <div>
+                    <img src="Images/black-search.png" alt="">
+                </div>
+            </div>
+            <a href="index.html">Home <div>></div> </a>
+            <a href="contact.html">Contact Us <div>></div></a>
+            <a href="dashboard.html">Explore <div>></div></a>
+            <a href="#">News <div>></div></a>
+            <a href="#">Categories <div>></div></a>
+            <a href="profile.html">My Profile <div>></div></a>
+            <a href="privacy.html">Privacy Policy <div>></div></a>
+            <a href="terms.html">Terms & Conditions <div>></div></a>
+            <div class="responsive-login-section">
+                <div class="nav-login"><a style="border-bottom: 1px solid #5e385e; padding-left: 0;"
+                        href="login.html">Login</a></div>
+                <div><a style="border-bottom: 1px solid #5e385e; padding-left: 0;" href="register.html">Signup</a></div>
+            </div>
+        </div>
+
+
+        <div class="menu">
+            <div class="logo">
+                <img onclick="openNav()" style="width: 18px; height: 15px;" src="Images/hamburger.png" alt="">
+                <a href="index.html"> <img src="Images/logo.png" alt=""></a>
+            </div>
+
+            <div>
+                <img style="width: 18px; height: 18px;" src="Images/search.png" alt="">
+            </div>
+        </div>
+
+        <div class="auth-container" onclick="closeNav()">
+            <div class="login">
+                <a href="login.html">Login</a>
+            </div>
+            <div>
+                <a href="register.html">Signup</a>
+            </div>
+        </div>
+
+    </nav>
+
+
+
+    <div class="hero-section">
+
+        <!-- Slider -->
+
+        <div class="hero">
+            <div style="z-index: -1;" id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img href="login.html" target="_blank" src="dummy-image.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img href="login.html" src="dummy-image.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img href="login.html" src="dummy-image.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        
+    </div>
+
+    <marquee behavior="smooth" direction="left">
+        <a href="login.html">News 1</a>
+        <a href="login.html">News 2</a>
+        <a href="login.html">News 3</a>
+    </marquee>
+
+
+
+
+
+    <!-- Categories Section -->
+
+    <div class="categories">
+        <h1>Categories</h1>
+
+        <div class="boxes-container">
+
+            <a href="login.html">
+                <div class="box">
+                    <div class="square"><img src="dummy-image.jpg" alt=""></div>
+                    <div class="box-text">Title</div>
+                </div>
+            </a>
+
+            <a href="login.html">
+                <div class="box">
+                    <div class="square"><img src="dummy-image.jpg" alt=""></div>
+                    <div class="box-text">Title</div>
+                </div>
+            </a>
+
+            <a href="login.html">
+                <div class="box">
+                    <div class="square"><img src="dummy-image.jpg" alt=""></div>
+                    <div class="box-text">Title</div>
+                </div>
+            </a>
+
+            <a href="login.html">
+                <div class="box">
+                    <div class="square"><img src="dummy-image.jpg" alt=""></div>
+                    <div class="box-text">Title</div>
+                </div>
+            </a>
+
+            <a href="login.html">
+                <div class="box">
+                    <div class="square"><img src="dummy-image.jpg" alt=""></div>
+                    <div class="box-text">Title</div>
+                </div>
+            </a>
+
+            <a href="login.html">
+                <div class="box">
+                    <div class="square"><img src="dummy-image.jpg" alt=""></div>
+                    <div class="box-text">Title</div>
+                </div>
+            </a>
+
+            <a href="login.html">
+                <div class="box">
+                    <div class="square"><img src="dummy-image.jpg" alt=""></div>
+                    <div class="box-text">Title</div>
+                </div>
+            </a>
+
+            <a href="login.html">
+                <div class="box">
+                    <div class="square" style="background-color: #ffff;">
+                        <div class="categories-more-box">
+                            <img style="height: 20px; width: 20px" src="Images/black-hamburger.png" alt="">
+                        </div>
+                    </div>
+                    <div class="box-text">More</div>
+                </div>
+            </a>
+
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- Featured Section -->
+
+    <div class="fetures-section">
+        <h1>Features</h1>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img href="login.html" target="_blank" src="dummy-image.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img href="login.html" src="dummy-image.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img href="login.html" src="dummy-image.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Quantity Section -->
+
+    <div class="quantity-section">
+        <h1>Quantity</h1>
+        <a href="login.html">
+            <div class="quantity-img-container">
+                <img src="dummy-image.jpg" alt="">
+            </div>
+        </a>
+        <div class="quantity-boxes">
+            <div class="box">
+                <span>147+</span>
+                <span>Members</span>
+            </div>
+
+            <div class="box">
+                <span>149+</span>
+                <span>Houses</span>
+            </div>
+
+            <div class="box">
+                <span>7+</span>
+                <span>Zones</span>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Explore Section -->
+    <div class="explore-section">
+
+        <h1>Explore</h1>
+        <div id="carouselExampleControls" class="explore-section-carosol carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="dummy-image.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="dummy-image.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="dummy-image.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="explore-banner">
+            <div class="main-banner">
+                <a href="login.html">
+                    <img src="dummy-image.jpg" alt="Place your ad / banner here">
+                </a>
+            </div>
+
+            <div class="nested-banners">
+                <div class="banner-1">
+                    <a href="login.html">
+                        <img src="dummy-image.jpg" alt="Place your ad / banner here">
+                    </a>
+                </div>
+                <div class="banner-2">
+                    <a href="login.html">
+                        <img src="dummy-image.jpg" alt="Place your ad / banner here">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Footer -->
+
+    <div class="footer">
+
+        <div class="help">
+            <h1>NEED HELP!</h1>
+            <span>Email Us: contact@meramahal.com</span>
+            <br>
+            <span>Contact Us: &nbsp; +011 234 567 899</span>
+        </div>
+
+        <div class="social">
+            <span>FIND US ON &nbsp;&nbsp; <a href="#"><img src="Images/twitter.png" alt=""></a> <a href="#"><img
+                        src="Images/linkedin.png" alt=""></a> <a href="#"><img src="Images/fb.png" alt=""></a></span>
+        </div>
+
+        <div class="footer-details">
+
+
+            <div class="content">
+                <a href="#">
+                    <div>About Us</div>
+                    <div>></div>
+                </a>
+            </div>
+
+            <div class="content">
+                <a href="contact.html">
+                    <div>Contact Us</div>
+                    <div>></div>
+                </a>
+            </div>
+
+            <div class="content">
+                <a href="privacy.html">
+                    <div>Privacy Policy</div>
+                    <div>></div>
+                </a>
+            </div>
+
+            <div class="content">
+                <a href="terms.html">
+                    <div>Term & conditions</div>
+                    <div>></div>
+                </a>
+            </div>
+
+            <div class="content">
+                <a href="profile.html">
+                    <div>My Profile</div>
+                    <div>></div>
+                </a>
+            </div>
+
+            <div class="content">
+                <a href="#">
+                    <div>Categories</div>
+                    <div>></div>
+                </a>
+            </div>
+
+            <div class="content">
+                <a href="login.html">
+                    <div>Login</div>
+                    <div>></div>
+                </a>
+            </div>
+
+            <div class="content">
+                <a href="register.html">
+                    <div>Signup</div>
+                    <div>></div>
+                </a>
+            </div>
+
+            <div class="content">
+                <a href="#">
+                    <div>Latest News</div>
+                    <div>></div>
+                </a>
+            </div>
+
+            <div class="content">
+                <a href="#">
+                    <div>Explore</div>
+                    <div>></div>
+                </a>
+            </div>
+
+        </div>
+
+        <div class="trusted-brands">
+            <img src="Images/master-card.png" alt="">
+            <img src="Images/visa-logo.png" alt="">
+            <img src="Images/master-card.png" alt="">
+        </div>
+
+
+        <div class="copyright">
+            <span>Copyright © 2022 All Rights Reserved</span>
+        </div>
+
+        <hr>
+    </div>
+
+
+    <div class="bottom-menu">
+        <div>
+            <a href="#"><img src="Images/home.png" alt=""></a>
+        </div>
+        <div>
+            <a href="#"><img src="Images/black-search.png" alt=""></a>
+        </div>
+        <div>
+            <a href="#"><img src="Images/cart.png" alt=""></a>
+        </div>
+        <div>
+            <a href="#"><img src="Images/account.png" alt=""></a>
+        </div>
+        <div>
+            <a href="#"><img src="Images/more.png" alt=""></a>
+        </div>
+    </div>
+
+
+    <!-- Boostsraps Script CND -->
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+
+    <script>
+        // Responsive navbar
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "300px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+
+        const nav = document.getElementById('nav');
+
+        window.addEventListener('mouseup', function (event) {
+            var box = document.getElementById('mySidenav');
+            if (event.target != box && event.target.parentNode != nav) {
+                document.getElementById("mySidenav").style.width = "0";
+            }
+        })
+
+
+        // Slider Code
+
+
+    </script>
+</body>
+
+</html>
